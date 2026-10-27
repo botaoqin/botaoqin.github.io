@@ -113,8 +113,8 @@ a:focus-visible {
 }
 
 .monogram {
-  width: 64px;
-  height: 64px;
+  width: 96px;
+  height: 96px;
   border-radius: 50%;
   display: grid;
   place-items: center;
@@ -125,6 +125,12 @@ a:focus-visible {
   font-size: 1.35rem;
   letter-spacing: .05em;
   user-select: none;
+}
+
+img.monogram {
+  object-fit: cover;
+  object-position: center;
+  background: var(--accent-soft);
 }
 
 h1 {
@@ -377,7 +383,7 @@ footer a { color: var(--muted); }
     min-width: 0;
   }
 
-  .monogram { width: 54px; height: 54px; font-size: 1.15rem; }
+  .monogram { width: 72px; height: 72px; font-size: 1.15rem; }
 
   h1 { font-size: 1.7rem; }
 

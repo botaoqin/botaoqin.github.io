@@ -70,26 +70,11 @@ It asks for confirmation before creating anything.
 - **Cureus paper.** Marked “Forthcoming”; update when the final version appears.
 - **“Last updated”** in both pages and the footer.
 
-### Add a photo
+### Photo
 
-1. Put a square photo at `assets/photo.jpg` (about 400 × 400 px).
-2. In `index.html` and `zh.html`, replace:
-
-```html
-<div class="monogram" aria-hidden="true">BQ</div>
-```
-
-with:
-
-```html
-<img class="monogram" src="assets/photo.jpg" alt="Botao Qin" width="64" height="64">
-```
-
-Add this to `styles.css` if the photo needs cropping:
-
-```css
-img.monogram { object-fit: cover; }
-```
+The sidebar portrait is `assets/photo.jpg` — 480 × 480, cropped square, EXIF stripped,
+and displayed as a circle. To change it, overwrite that file with another square JPEG;
+no HTML changes are needed.
 
 ### Add a CV PDF
 
@@ -117,8 +102,10 @@ a teaching portfolio — send them and they can be added.
 
 ## Privacy
 
-No phone number, photo, unpublished data, or personal documents are included. The site is
-static; there are no cookies, analytics, or third-party requests.
+No phone number, unpublished data, or personal documents are included. The portrait in
+`assets/photo.jpg` is published at the owner's request and has no EXIF metadata. The site is
+static; there are no cookies, analytics, or any third-party requests (Google Scholar is an
+ordinary outbound link, not an embedded tracker).
 
 ## Copyright
 
