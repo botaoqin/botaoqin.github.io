@@ -63,8 +63,8 @@ It asks for confirmation before creating anything.
 - **Affiliation and title.** The site currently says *Associate Professor of Economics,
   Xi'an Eurasia University; formerly Jinhe Center for Economic Research, Xi'an Jiaotong
   University*. Change it if needed.
-- **Email.** `botaoqin@gmail.com` and `botaoqin@163.com` (from the July 2026 CV). If you
-  prefer the XJTU address, replace both pages.
+- **Email.** `botaoqin@gmail.com` and `qinbotao@eurasia.edu` are listed on both pages; the
+  sidebar button opens Gmail. Update both pages if either address changes.
 - **Google Scholar.** Linked to the profile `rNIC_VkAAAAJ`; update both pages if the ID ever changes.
 - **DOI links.** Four papers link to DOIs. Add links for the others if you have them.
 - **Cureus paper.** Marked “Forthcoming”; update when the final version appears.
