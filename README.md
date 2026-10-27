@@ -7,8 +7,9 @@ No JavaScript, no external fonts, no trackers.
 
 | File | Purpose |
 |---|---|
-| `index.html` | English homepage |
-| `zh.html` | Chinese homepage |
+| `index.html` | Chinese homepage (default) |
+| `en.html` | English homepage |
+| `zh.html` | Legacy Chinese URL; redirects to `index.html` |
 | `styles.css` | Shared styles (colors, layout, dark mode, print) |
 | `favicon.svg` | Site icon |
 | `.nojekyll` | Tells GitHub Pages not to run Jekyll |
@@ -18,8 +19,8 @@ No JavaScript, no external fonts, no trackers.
 
 ```bash
 cd /Users/botaoqin/Documents/claude/website
-open index.html          # English
-open zh.html             # Chinese
+open index.html          # Chinese (default)
+open en.html             # English
 ```
 
 Or run a local server:
@@ -38,7 +39,7 @@ python3 -m http.server 8000
    - For a project site, any name works (e.g., `academic-site`); the URL will be
      `https://<username>.github.io/academic-site/`.
 2. Upload all files in this folder to the repository root
-   (`index.html`, `zh.html`, `styles.css`, `favicon.svg`, `.nojekyll`).
+   (`index.html`, `en.html`, `zh.html`, `styles.css`, `favicon.svg`, `.nojekyll`).
 3. Go to **Settings → Pages → Build and deployment**.
 4. Source: **Deploy from a branch**; Branch: **main**; Folder: **/ (root)**; Save.
 5. Wait 1–2 minutes, then visit the URL.
