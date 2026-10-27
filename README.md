@@ -65,8 +65,7 @@ It asks for confirmation before creating anything.
   University*. Change it if needed.
 - **Email.** `botaoqin@gmail.com` and `botaoqin@163.com` (from the July 2026 CV). If you
   prefer the XJTU address, replace both pages.
-- **Google Scholar.** The link is currently a name search. Replace it with your profile:
-  `https://scholar.google.com/citations?user=YOUR_ID`.
+- **Google Scholar.** Linked to the profile `rNIC_VkAAAAJ`; update both pages if the ID ever changes.
 - **DOI links.** Four papers link to DOIs. Add links for the others if you have them.
 - **Cureus paper.** Marked “Forthcoming”; update when the final version appears.
 - **“Last updated”** in both pages and the footer.
